@@ -1,0 +1,55 @@
+{
+  "name": "trb",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.4.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.16.13",
+    "axios": "^0.21.1",
+    "ethers": "^5.4.5",
+    "fs": "0.0.1-security",
+    "react": "^17.0.2",
+    "react-awesome-swiper": "^1.0.0",
+    "react-dom": "^17.0.2",
+    "react-id-swiper": "^4.0.0",
+    "react-scripts": "^4.0.3",
+    "react-simple-image": "^1.0.0",
+    "react-switch": "^6.0.0",
+    "react-toastify": "^8.0.2",
+    "swiper": "^7.0.1",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "dotenv": "^8.2.0",
+    "postcss": "^7.0.36",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.7"
+  }
+}
